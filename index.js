@@ -1,5 +1,3 @@
-// const { token } = require("./config.json");
-
 require("dotenv").config();
 const token = process.env.DISCORD_TOKEN;
 
@@ -47,9 +45,9 @@ client.on("message", (msg) => {
   if (msg.author.id === myID) {
     msg.react("💯");
   }
-  if (msg.author.id === yunusID) {
-    msg.delete();
-  }
+  // if (msg.author.id === yunusID) {
+  //   msg.delete();
+  // }
 });
 
 client.on("message", (msg) => {
