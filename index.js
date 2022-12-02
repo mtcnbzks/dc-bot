@@ -1,4 +1,6 @@
-const { token } = require("./config.json");
+// const { token } = require("./config.json");
+// get token from .env file
+const token = process.env.TOKEN;
 
 const fs = require("fs");
 const path = require("path");
