@@ -1,0 +1,7 @@
+.idea
+.DS_Store
+config.json
+.env
+test.js
+node_modules
+
