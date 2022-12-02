@@ -1,6 +1,7 @@
 // const { token } = require("./config.json");
-// get token from .env file
-const token = process.env.TOKEN;
+
+require("dotenv").config();
+const token = process.env.DISCORD_TOKEN;
 
 const fs = require("fs");
 const path = require("path");
