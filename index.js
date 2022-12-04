@@ -8,7 +8,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 const myID = "313284967214088196";
-const yunusID = "758459168155238412";
 
 function isAttachImage(msgAttach) {
   let url = msgAttach.url;
