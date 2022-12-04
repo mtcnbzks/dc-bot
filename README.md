@@ -10,4 +10,4 @@ A Discord bot for my Discord server.
 ### note
 I deploy this bot on Railway, so I don't need to run it locally. 
 If you want to run it locally, you need to install the dependencies and create a dotenv file. 
-If you want to deploy it on Heroku, you need to create a Railway app and add the "token" as a config var.
+If you want to deploy it on Railway, you need to create a Railway app and add the "token" as a config var.
